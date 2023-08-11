@@ -292,6 +292,7 @@ MutableTrie:insert(tr, "EVERYONE", actionReplace("EVERYNYAN"))
 ? Plugin:config.owoify_cats {
   MutableTrie:insert(tr, "r", actionReplaceWhole("w"))
   MutableTrie:insert(tr, "R", actionReplaceWhole("W"))
+  MutableTrie:insert(tr, "l", actionReplaceWhole("w"))
 }
 #nyaSuffix = Plugin:config.nyanify_suffix
 #nyaSuffixFreq = Plugin:config.nyanify_suffix_freq
