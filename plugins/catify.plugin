@@ -40,6 +40,7 @@
       label: "owoify cats"
       discription: "applies an owoify filter to all cats"
       default: no
+    }
   }
 }
 
