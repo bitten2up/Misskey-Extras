@@ -291,8 +291,8 @@ MutableTrie:insert(tr, "EVERYONE", actionReplace("EVERYNYAN"))
   MutableTrie:insert(tr, "NOW", actionReplaceWhole("NYOW"))
 }
 ? Plugin:config.owoify_cats {
-  MutableTrie:insert(tr, "hello", actionReplace("henwo"))
-  MutableTrie:insert(tr, "love", actionReplace("wuv"))
+  MutableTrie:insert(tr, "hello", actionReplaceWhole("henwo"))
+  MutableTrie:insert(tr, "love", actionReplaceWhole("wuv"))
   MutableTrie:insert(tr, "fuck", actionReplace("fwick"))
   MutableTrie:insert(tr, "r", actionReplace("w"))
   MutableTrie:insert(tr, "R", actionReplace("W"))
