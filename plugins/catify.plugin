@@ -291,13 +291,13 @@ MutableTrie:insert(tr, "EVERYONE", actionReplace("EVERYNYAN"))
   MutableTrie:insert(tr, "NOW", actionReplaceWhole("NYOW"))
 }
 ? Plugin:config.owoify_cats {
-  MutableTrie:insert(tr, "hello", actionReplaceWhole("henwo"))
-  MutableTrie:insert(tr, "love", actionReplaceWhole("wuv"))
-  MutableTrie:insert(tr, "fuck", actionReplaceWhole("fwick"))
-  MutableTrie:insert(tr, "r", actionReplaceWhole("w"))
-  MutableTrie:insert(tr, "R", actionReplaceWhole("W"))
-  MutableTrie:insert(tr, "l", actionReplaceWhole("w"))
-  MutableTrie:insert(tr, "L", actionReplaceWhole("W"))
+  MutableTrie:insert(tr, "hello", actionReplace("henwo"))
+  MutableTrie:insert(tr, "love", actionReplace("wuv"))
+  MutableTrie:insert(tr, "fuck", actionReplace("fwick"))
+  MutableTrie:insert(tr, "r", actionReplace("w"))
+  MutableTrie:insert(tr, "R", actionReplace("W"))
+  MutableTrie:insert(tr, "l", actionReplace("w"))
+  MutableTrie:insert(tr, "L", actionReplace("W"))
 }
 #nyaSuffix = Plugin:config.nyanify_suffix
 #nyaSuffixFreq = Plugin:config.nyanify_suffix_freq
